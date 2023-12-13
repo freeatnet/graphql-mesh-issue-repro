@@ -1,4 +1,4 @@
-query ListPets {
+query listPets {
   findPetsByStatus(status: [available]) {
     name
   }
